@@ -41,4 +41,14 @@ python Hello.py
   <img src="Img/Hellopython.PNG" alt="Hello">
 </p>
 
+> [!IMPORTANT]
+> When accessing the Flask application, make sure to include the `/gethello` route in the URL to get the server's response. 
+> Also, verify that you are using the correct route and port provided by your IDE when running the server. 
+> For example, if your IDE indicates the server is running on `http://localhost:5000`, the full URL to access the route would be:
+> 
+> ```
+> http://localhost:5000/gethello
+> ```
+> 
+> Ensure that the port matches the one being used by your development environment.
 
